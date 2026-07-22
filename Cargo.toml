@@ -1,0 +1,16 @@
+[package]
+name = "stellarium-zed-extension"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["Tobias Feigel <info@feigel.it>"]
+repository = "https://github.com/fits-ki/zed-stellarium"
+
+[lib]
+crate-type = ["cdylib"]
+path = "src/lib.rs"
+
+[dependencies]
+hex = "0.4"
+sha2 = "0.10"
+zed_extension_api = "0.3"

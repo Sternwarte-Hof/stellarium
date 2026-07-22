@@ -1,0 +1,13 @@
+name = "Stellarium Script"
+grammar = "stellarium"
+path_suffixes = ["ssc", "inc"]
+line_comments = ["// "]
+block_comment = ["/* ", " */"]
+brackets = [
+  { start = "{", end = "}", close = true, newline = true },
+  { start = "[", end = "]", close = true, newline = true },
+  { start = "(", end = ")", close = true, newline = true },
+  { start = "\"", end = "\"", close = true, newline = false, not_in = ["string", "comment"] },
+  { start = "'", end = "'", close = true, newline = false, not_in = ["string", "comment"] },
+]
+word_characters = ["_"]

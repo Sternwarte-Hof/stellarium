@@ -1,0 +1,21 @@
+id = "stellarium"
+name = "Stellarium"
+version = "0.1.0"
+schema_version = 1
+authors = ["Tobias Feigel <info@feigel.it>"]
+description = "Stellarium Script authoring support for Zed"
+repository = "https://github.com/fits-ki/zed-stellarium"
+themes = []
+icon_themes = []
+languages = ["languages/stellarium"]
+
+[grammars.stellarium]
+repository = "https://github.com/fits-ki/tree-sitter-stellarium"
+rev = "d531d747f0448cda0ac7bfbb8e325d841660649d"
+
+[language_servers.stellarium-lsp]
+name = "Stellarium LSP"
+languages = ["Stellarium Script"]
+
+[language_servers.stellarium-lsp.language_ids]
+"Stellarium Script" = "stellarium-script"

@@ -1,0 +1,6 @@
+(statement_block "{" @indent "}" @outdent)
+(object "{" @indent "}" @outdent)
+(array "[" @indent "]" @outdent)
+(switch_body "{" @indent "}" @outdent)
+(formal_parameters "(" @indent ")" @outdent)
+(arguments "(" @indent ")" @outdent)
