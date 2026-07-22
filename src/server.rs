@@ -9,7 +9,7 @@ use zed_extension_api::{Architecture, Os};
 pub const PINNED_SERVER_VERSION: &str = "0.1.0";
 
 /// The GitHub repository that publishes native server releases.
-pub const REPO: &str = "fits-ki/zed-stellarium";
+pub const REPO: &str = "fits-ki/stellarium";
 
 const LOCAL_PATH_ENV: &str = "STELLARIUM_LSP_PATH";
 

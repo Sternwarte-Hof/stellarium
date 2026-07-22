@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 license = "MIT"
 authors = ["Tobias Feigel <info@feigel.it>"]
-repository = "https://github.com/fits-ki/zed-stellarium"
+repository = "https://github.com/fits-ki/stellarium"
 
 [lib]
 crate-type = ["cdylib"]
