@@ -19,11 +19,27 @@ const LOCAL_PATH_ENV: &str = "STELLARIUM_LSP_PATH";
 const PINNED_CHECKSUMS: &[(&str, &str)] = &[
     (
         "aarch64-apple-darwin",
-        "66e18881b9b0a3373eff0fc62d37d0281130cd29e899f76c0a4cfbd7c44c6414",
+        "25b84a0188095712a313071fb68cf88c4dcc0ecd14155f9fe673749ebf504966",
     ),
     (
         "x86_64-apple-darwin",
-        "215fc9bb6e1e7f95bb1872151e3b56408d960f2a79fca2aab441996253ef8b09",
+        "be53639181ae39e320c960b3bb864101414427a7d57286d591d1384cd5f1e2b9",
+    ),
+    (
+        "aarch64-unknown-linux-gnu",
+        "5fe362e3a3fe5b9a9cf0b21ac5e12939ac8ccf99d930d5c3ac9948d74de94aff",
+    ),
+    (
+        "x86_64-unknown-linux-gnu",
+        "93c576908392966bebed8328951139c1ade990aacd24f6d3eee6656452f6c0dc",
+    ),
+    (
+        "aarch64-pc-windows-msvc",
+        "c58e10038b231f97866b4c4115eb60236fd87a27093ff87a3e85e7ad5c7b7421",
+    ),
+    (
+        "x86_64-pc-windows-msvc",
+        "eb961d14572a012c73312b3f1fbc9ec9e2936e036201e803e7aaca9d33076b45",
     ),
 ];
 

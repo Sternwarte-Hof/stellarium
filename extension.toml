@@ -11,7 +11,7 @@ languages = ["languages/stellarium"]
 
 [grammars.stellarium]
 repository = "https://github.com/fits-ki/tree-sitter-stellarium"
-rev = "d531d747f0448cda0ac7bfbb8e325d841660649d"
+rev = "9ba465bc62dc76ea8b8b0f46b584e6ed49d19f11"
 
 [language_servers.stellarium-lsp]
 name = "Stellarium LSP"
