@@ -8,3 +8,6 @@ Cargo.lock
 /.cargo/config.toml
 /grammars/
 /bin/
+
+# Local Codebase-MCP index (machine-specific; do not commit)
+.codebase-memory/
